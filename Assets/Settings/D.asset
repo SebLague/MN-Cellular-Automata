@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 283cb154d8f49464a8452b5450c77dfe, type: 3}
+  m_Name: D
+  m_EditorClassIdentifier: 
+  stepsPerFrame: 1
+  noiseOffset: {x: 0, y: 0}
+  rules:
+  - radiusMinMax: {x: 3, y: 5}
+    aliveMinMax: {x: 0.405, y: 0.89618444}
+    deadMinMax: {x: 0.13593781, y: 0.59537715}
+  - radiusMinMax: {x: 1, y: 8}
+    aliveMinMax: {x: 0, y: 0}
+    deadMinMax: {x: 0, y: 0}
+  - radiusMinMax: {x: 0, y: 2}
+    aliveMinMax: {x: 0, y: 0}
+    deadMinMax: {x: 0, y: 0}
+  - radiusMinMax: {x: 3, y: 5}
+    aliveMinMax: {x: 0, y: 0.079}
+    deadMinMax: {x: 0.098, y: 0.33}
+  - radiusMinMax: {x: 2, y: 2}
+    aliveMinMax: {x: 0, y: 0}
+    deadMinMax: {x: 0, y: 0}
+  - radiusMinMax: {x: 7, y: 9}
+    aliveMinMax: {x: 0.187, y: 0.199}
+    deadMinMax: {x: 0, y: 0}
+  - radiusMinMax: {x: 2, y: 4}
+    aliveMinMax: {x: 0, y: 0}
+    deadMinMax: {x: 0, y: 0}
+  - radiusMinMax: {x: 9, y: 12}
+    aliveMinMax: {x: 0.261, y: 0.335}
+    deadMinMax: {x: 0, y: 0.138}
